@@ -8,7 +8,7 @@ A Red-Black Tree implemented from scratch in C, supporting insert, delete, and s
 
 | File | Description |
 |------|-------------|
-| `RedBlackTree.h` | Public API — structs, constants, and function declarations |
+| `RedBlackTree.h` | Public API: structs, constants, and function declarations |
 | `RedBlackTree.c` | Full implementation of all operations |
 | `RedBlackTreeTest.c` | Unit, integration, and edge-case test suite |
 | `RedBlackTreePerf.c` | Timing benchmarks across sequential, random, and reverse input |
@@ -167,4 +167,4 @@ Size           Insert(ns/op)   Search(ns/op)   Delete(ns/op)
 1000000               203.73           21.50           71.57
 ```
 
-All operations scale logarithmically — per-operation cost grows slowly even at 1,000,000 keys, consistent with O(log n) guarantees.
+All operations scale logarithmically
