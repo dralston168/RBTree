@@ -9,7 +9,7 @@ A Red-Black Tree is a self-balancing BST that enforces four invariants after eve
 3. No RED node has a RED parent.
 4. Every path from any node to a NIL boundary crosses the same number of BLACK nodes.
 
-These invariants bound tree height at 2 log₂(n+1), keeping insert, delete, and search at O(log n) worst case.
+These bound tree height, keeping insert, delete, and search at O(log n) worst case.
 
 ---
 
